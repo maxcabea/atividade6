@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Loja Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <style>
+        .menu{
+            margin-top: -15px;
+        }
+    </style>
+</head>
+  <body>
+    
+    <div class="container-fluid p-0 overflow-hidden">
+    <!-- Cabeçalho -->
+    <div class="row mt-3">
+        <div class="col-3">
+          <img width="150" height="150" src="imagens/logo.png" class="img-fluid ms-3 d-block">
+        </div>  
+    </div>
+    <hr>
+    <!-- Menu -->
+    <div class="row menu">
+            <div class="col">
+                <nav class="navbar navbar-expand-lg bg-white" data-bs-theme="white">
+                    <div class="container-fluid">
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="true" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Perfumes</a>
+                                <ul class="dropdown-menu ">
+                                  <li><a class="dropdown-item" href="#">teste</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Corpo e Banho</a>
+                                <ul class="dropdown-menu ">
+                                  <li><a class="dropdown-item" href="#">teste</a></li>
+                                </ul>
+                            </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Linha Ambiente</a>
+                            <ul class="dropdown-menu ">
+                              <li><a class="dropdown-item" href="#">teste</a></li>
+                            </ul>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Promoções</a>
+                                <ul class="dropdown-menu ">
+                                  <li><a class="dropdown-item" href="#">teste</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </nav>
+            </div>
+    </div>
+    <!-- Carousel de produtos -->
+    <div class="row">
+            <div class="col">
+              <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="1000">
+                <div class="carousel-inner">
+                  <div class=" carousel-item active">
+                    <img height="500" src="imagens/baner.png" class="d-block w-100">
+                  </div>
+                 </div>
+              </div>
+            </div>
+    </div>
+    <!-- Faixa cinza -->
+    <div class="row m-0 bg-secondary-subtle justify-content-center">
+    <div class="card m-3 border border-0 bg-secondary-subtle" style="max-width: 350px;">
+        <div class="row g-0 bg-secondary-subtle">
+          <div class="col-md-4">
+            <img src="/at6/exer2/imagens/grafico-de-porcentagem.png" class="img-fluid rounded-start" alt="Frete">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Frete Grátis</h5>
+              <p class="card-text">nas compras a partir de R$400,00</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card m-3 border border-0 bg-secondary-subtle" style="max-width: 350px;">
+        <div class="row g-0 bg-secondary-subtle">
+          <div class="col-md-4">
+            <img src="/at6/exer2/imagens/cartao-de-credito.png" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Pague no Cartão</h5>
+              <p class="card-text">parcelado em até 12x sem juros</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card m-3 border border-0 bg-secondary-subtle" style="max-width: 350px;">
+        <div class="row g-0 bg-secondary-subtle">
+          <div class="col-md-4">
+            <img src="/at6/exer2/imagens/firewall.png" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Site Seguro</h5>
+              <p class="card-text">blindado com Certificado SSL</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card m-3 border border-0 bg-secondary-subtle" style="max-width: 350px;">
+        <div class="row g-0 bg-secondary-subtle">
+          <div class="col-md-4">
+            <img src="/at6/exer2/imagens/caixas.png" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Prazo de Entrega</h5>
+              <p class="card-text">Envio em até 5 dias úteis + Prazo do transportador</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Linha Título -->
+      <div class="row text-center mt-5">
+        <div class="col">
+        <h1>Últimos Lançamentos</h1>
+      </div>
+    </div>
+    <!--linha produtos -->
+      <div class="row m-5 justify-content-center text-center">
+        <div class="col-2">
+          <div class="card border border-0 border-bottom" style="width: 18rem;">
+            <img src="imagens/perfume.webp" class="card-img-top" alt="Perfume1">
+            <div class="card-body">
+              <p class="card-text">Perfume Ipsum Selvagem </p>
+              <h5 class="card-title">R$32,90</h5>
+              <p>6x de R$5,48 sem juros</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="card border border-0 border-bottom" style="width: 18rem;">
+            <img src="imagens/perfume.webp" class="card-img-top" alt="Perfume1">
+            <div class="card-body">
+              <p class="card-text">Perfume Ipsum Selvagem </p>
+              <h5 class="card-title">R$32,90</h5>
+              <p>6x de R$5,48 sem juros</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="card border border-0 border-bottom" style="width: 18rem;">
+            <img src="imagens/perfume.webp" class="card-img-top" alt="Perfume1">
+            <div class="card-body">
+              <p class="card-text">Perfume Ipsum Selvagem </p>
+              <h5 class="card-title">R$32,90</h5>
+              <p>6x de R$5,48 sem juros</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="card border border-0 border-bottom" style="width: 18rem;">
+            <img src="imagens/perfume.webp" class="card-img-top" alt="Perfume1">
+            <div class="card-body">
+              <p class="card-text">Perfume Ipsum Selvagem </p>
+              <h5 class="card-title">R$32,90</h5>
+              <p>6x de R$5,48 sem juros</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Quem somos -->
+      <div class="row">
+        <div class="col">
+          <div class="container-fluid bg-secondary-subtle p-5 mt-5">
+            <div class="row">
+              <div class="col-4 text-start">
+                <h3>Quem Somos</h3>
+                A Lorem Ipsum Cosméticos é uma empresa brasileira fundada em 2011 com o
+                objetivo de atuar como perfumaria de acesso e prover o mercado com produtos de
+                qualidade internacional e preço justo. Fazemos perfumaria com ciência, amor e
+                arte, assim combinamos notas aromáticas para criar acordes inesquecíeis que são
+                verdadeiras sinfonias de sentidos.
+              </div>
+  
+              <div class="col-4 text-start">
+                <h3>Categorias</h3>
+                <ul class="list-group bg-transparent">
+                  <li class="list-group pb-2">Perfume Masculinos</li>
+                  <li class="list-group pb-2">Perfume Femininos</li>
+                  <li class="list-group pb-2">Hidratante</li>
+                  <li class="list-group pb-2">Desodorante</li>
+                  <li class="list-group pb-2">Para sua casa</li>
+                  <li class="list-group">Promoções</li>
+                </ul>
+              </div>
+  
+              <div class="col-4 text-start">
+                <h3>Institucional</h3>
+                <ul class="list-group bg-transparent pb-2">
+                  <li class="list-group pb-2">Quem somos</li>
+                  <li class="list-group pb-2">Sobre perfumes</li>
+                  <li class="list-group pb-2">Dicas de perfumista</li>
+                  <li class="list-group pb-2">Politica de Privacidade</li>
+                  <li class="list-group pb-2">Entregas</li>
+                  <li class="list-group pb-2">Pagamentos</li>
+                  <li class="list-group">Trocas e Devoluções</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <!-- rodapé -->
+      <div class="row bg-dark text-white">
+        <div class="col">
+          <p class="m-0 p-3"> Copyright Lorem Ipsum Cosméticos-2032. Todos os direitos reservados</p>
+        </div>
+      </div>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+  </body>
+</html>
